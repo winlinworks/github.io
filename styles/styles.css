@@ -46,7 +46,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
+  color: var(--color-secondary);
   font-family: inherit;
 }
 
@@ -85,6 +85,11 @@ section {
   100% {
     transform: translateY(0) scaleY(1);
   }
+}
+
+.overview-text {
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .controls {
@@ -396,11 +401,6 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
-}
-
-.port-text {
-  padding: 2rem 0;
-  text-align: center;
 }
 
 .portfolios {
