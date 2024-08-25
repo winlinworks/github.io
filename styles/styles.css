@@ -50,6 +50,11 @@ a {
   font-family: inherit;
 }
 
+button {
+  background-color: var(--color-primary);
+  font-family: inherit;
+}
+
 header {
   min-height: 100vh;
   color: var(--color-white);
@@ -619,6 +624,7 @@ section {
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
+  font-size: inherit;
   justify-content: flex-start;
 }
 
@@ -632,6 +638,7 @@ section {
   border-radius: 30px;
   color: inherit;
   font-weight: 600;
+  font-size: 1.1rem;
   position: relative;
   border: 1px solid var(--color-secondary);
   display: flex;
